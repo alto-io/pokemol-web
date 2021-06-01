@@ -7,14 +7,16 @@ import TextBox from './TextBox';
 import MCAvatar from '../assets/img/metacartel__avatar.jpg';
 import LexAvatar from '../assets/img/lex__avatar.png';
 import MGDAvatar from '../assets/img/mgd__avatar.jpg';
-import VenturesAvatar from '../assets/img/ventures__avatar.jpg';
 import RaidAvatar from '../assets/img/raidguild__avatar.png';
-import MachiXAvatar from '../assets/img/machix__avatar.jpg';
+import FlipFlopAvatar from '../assets/img/flipflop__avatar.png';
+import EnclaveAvatar from '../assets/img/enclave__avatar.png';
+import ConquestEthAvatar from '../assets/img/conquesteth__avatar.png';
+import SnakeAvatar from '../assets/img/snake__avatar.png';
 
 const FeaturedDaos = () => (
   <>
     <Flex justify='space-between'>
-      <TextBox mb={6}>Featured DAOs</TextBox>
+      <TextBox mb={6}>Featured Games</TextBox>
       <TextBox as={RouterLink} to='/explore' color='secondary.500'>
         Explore
       </TextBox>
@@ -28,9 +30,9 @@ const FeaturedDaos = () => (
         justify='start'
         align='center'
       >
-        <Avatar src={MCAvatar} alt='' />
-        <Text>MetaCartel</Text>
-        <Text fontSize='xs'>The airport to Web3</Text>
+        <Avatar src={FlipFlopAvatar} alt='' />
+        <Text>FlipFlop by FeatureKreep</Text>
+        <Text fontSize='xs'>Gamedev.js 2021 🏆: A Mirror Platformer</Text>
         <Flex mt={2} justify='center'>
           <Badge
             variant='outline'
@@ -38,10 +40,10 @@ const FeaturedDaos = () => (
             textAlign='center'
             marginRight='5px'
           >
-            Grants
+            Puzzle
           </Badge>
           <Badge variant='outline' colorScheme='primary' textAlign='center'>
-            Mainnet
+            Platformer
           </Badge>
         </Flex>
       </ContentBox>
@@ -53,9 +55,9 @@ const FeaturedDaos = () => (
         justify='start'
         align='center'
       >
-        <Avatar src={MGDAvatar} alt='' />
-        <Text>Meta Gamma Delta</Text>
-        <Text fontSize='xs'>Supporting women-led projects in Web3</Text>
+        <Avatar src={EnclaveAvatar} alt='' />
+        <Text>Match 3 by Enclave Games</Text>
+        <Text fontSize='xs'>No Ads, just Community Designed</Text>
         <Flex mt={2} justify='center'>
           <Badge
             variant='outline'
@@ -63,10 +65,10 @@ const FeaturedDaos = () => (
             textAlign='center'
             marginRight='5px'
           >
-            Grants
+            High Score
           </Badge>
           <Badge variant='outline' colorScheme='primary' textAlign='center'>
-            Polygon
+            Match 3
           </Badge>
         </Flex>
       </ContentBox>
@@ -78,9 +80,9 @@ const FeaturedDaos = () => (
         justify='start'
         align='center'
       >
-        <Avatar src={RaidAvatar} alt='' />
-        <Text>Raid Guild</Text>
-        <Text fontSize='xs'>Collective of Web3 product builders</Text>
+        <Avatar src={ConquestEthAvatar} alt='' />
+        <Text>Conquest.Eth by Etherplay</Text>
+        <Text fontSize='xs'>Unstoppable, open-ended strategy game</Text>
         <Flex mt={2} justify='center'>
           <Badge
             variant='outline'
@@ -88,10 +90,10 @@ const FeaturedDaos = () => (
             textAlign='center'
             marginRight='5px'
           >
-            Guilds
+            Multiplayer
           </Badge>
           <Badge variant='outline' colorScheme='primary' textAlign='center'>
-            xDAI
+            Strategy
           </Badge>
         </Flex>
       </ContentBox>
@@ -103,9 +105,9 @@ const FeaturedDaos = () => (
         justify='start'
         align='center'
       >
-        <Avatar src={LexAvatar} alt='' />
-        <Text>LexDAO</Text>
-        <Text fontSize='xs'>The decentralized legal engineering guild</Text>
+        <Avatar src={SnakeAvatar} alt='' />
+        <Text>Snake by ealmario</Text>
+        <Text fontSize='xs'>Classic snake game built with vanilla JS</Text>
         <Flex mt={2} justify='center'>
           <Badge
             variant='outline'
@@ -113,60 +115,10 @@ const FeaturedDaos = () => (
             textAlign='center'
             marginRight='5px'
           >
-            Guilds
+            High Score
           </Badge>
           <Badge variant='outline' colorScheme='primary' textAlign='center'>
-            xDAI
-          </Badge>
-        </Flex>
-      </ContentBox>
-      <ContentBox
-        _hover={{ transform: 'scale(1.05)' }}
-        direction='column'
-        as={RouterLink}
-        to='/dao/0x1/0x4570b4faf71e23942b8b9f934b47ccedf7540162'
-        justify='start'
-        align='center'
-      >
-        <Avatar src={VenturesAvatar} alt='' />
-        <Text>Venture DAO</Text>
-        <Text fontSize='xs'>Investing in Web3 projects and teams</Text>
-        <Flex mt={2} justify='center'>
-          <Badge
-            variant='outline'
-            colorScheme='secondary'
-            textAlign='center'
-            marginRight='5px'
-          >
-            Investments
-          </Badge>
-          <Badge variant='outline' colorScheme='primary' textAlign='center'>
-            Mainnet
-          </Badge>
-        </Flex>
-      </ContentBox>
-      <ContentBox
-        _hover={{ transform: 'scale(1.05)' }}
-        direction='column'
-        as={RouterLink}
-        to='/dao/0x1/0x016e79e9101a8eaa3e7f46d6d1c267819c09c939'
-        justify='start'
-        align='center'
-      >
-        <Avatar src={MachiXAvatar} alt='' />
-        <Text>Machi X DAO</Text>
-        <Text fontSize='xs'>Community of Crypto Artists</Text>
-        <Flex mt={2} justify='center'>
-          <Badge
-            variant='outline'
-            colorScheme='secondary'
-            textAlign='center'
-            marginRight='5px'
-          >
-            Guilds
-          </Badge>
-          <Badge variant='outline' colorScheme='primary' textAlign='center'>
-            Mainnet
+            Action
           </Badge>
         </Flex>
       </ContentBox>

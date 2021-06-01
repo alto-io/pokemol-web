@@ -22,19 +22,19 @@ const HubSignedOut = () => {
       >
         <Box textAlign='left'>
           <Box fontSize='2xl' fontFamily='heading' fontWeight={700}>
-            Welcome to DAOhaus v2
+            Welcome to the OPGames DAO Hub!
           </Box>
           <Text fontSize='xl' mb={5}>
-            Your new Hub for all Moloch DAO activity
+            -- Enabling community-owned games --
           </Text>
           <Box fontSize='md' mb={5}>
-            🔥 Interact with DAOs or Summon a new one
+            🖐 Vote and propose game design changes
           </Box>
           <Box fontSize='md' mb={5}>
-            🚨 Get activity feeds from all your DAOs
+            📰 Get activity feeds from the developers you support
           </Box>
           <Box fontSize='md' mb={5}>
-            🌊️️️ Easily switch between your DAOs
+            🌌 Take part in growing the Web 3 game metaverse
           </Box>
           <Flex justify='center' w='100%'>
             <Button onClick={requestWallet} mb={6}>
