@@ -15,7 +15,7 @@ import { useParams } from 'react-router-dom';
 import TextBox from '../components/TextBox';
 import DetailsFields from './detailFields';
 import AddressInput from './addressInput';
-import { createHash, detailsToJSON, JANUARY_2024 } from '../utils/general';
+import { createHash, detailsToJSON } from '../utils/general';
 import { useOverlay } from '../contexts/OverlayContext';
 import DelegateMenu from '../components/delegateMenu';
 import { UBERHAUS_DATA } from '../utils/uberhaus';
@@ -31,6 +31,8 @@ import AddressAvatar from '../components/addressAvatar';
 // TODO pass delegate to delegate menu
 // TODO replace delegate with user avatar
 // TODO sort out term limits, emergency recall
+
+const JANUARY_2024 = 1705936544;
 
 const DelegateProposalForm = ({
   daoMembers,
